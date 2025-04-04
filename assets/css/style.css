@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
+
 body { 
     font-family: poppins, sans-serif;
     background-color:#a4c2d1;
@@ -10,13 +11,33 @@ h1, h2 {
     
     color: #184f63; 
 }
+
+.sharp-corners,
+.sharp-corners *{
+    border-radius: 0;
+}
+
 /*About section*/
+
 #about{
     background-color: white;
 }
-/*Skills section*/
+
+/*Portofolio section*/
+
 #portfolio{
     background-color: #dbdcde;
+}
+#portfolio .card-title{
+    color: #184f63;
+    font-size: 1.2rem;
+}
+#portfolio .btn-outline-secondary:hover{
+    background-color: #184f63;
+}
+
+#portfolio .card-text {
+    min-height: 120px;
 }
 /*Contact section*/
 #contact{
@@ -30,4 +51,11 @@ h1, h2 {
     background-position: 50% 70%;
     min-height: 500px;
     padding: 5% 7%;  
+}
+/*media queries*/
+/*use breakpoits for xl screen and up*/
+@media (min-width: 1200px) {
+ #portfolio .card-text {
+    min-height: auto;
+ } 
 }

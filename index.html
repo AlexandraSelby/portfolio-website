@@ -183,53 +183,43 @@
     </section>
   </main>
 
-  <!-- Contact section -->
-  <footer id="contact" class="conteiner">
+   <!-- Contact section -->
+   <footer id="contact" class="container">
     <div class="row justify-content-center">
-      <div class="col-12 text-center my-4">
-
-        <header class="dispaly -5">Contact</header>
-        <p class="mt-4">I would love to hear from you! If you have any questions, comments, or just want to say hi, feel
-          free to reach out!</p>
-      </div>
-      <div class="col-12 col-md-10 col-lg-8">
-        <!--Add your form here!-->
-        <form class="row g-3">
-
-          <div class="col-md-4">
-            <label for="inputName" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="inputName">
-          </div>
-
-          <div class="col-md-4">
-            <label for="inputPhone" class="form-label">Phone</label>
-            <input type="tel" class="form-control" id="inputPhone">
-          </div>
-
-          <div class="col-md-4">
-            <label for="inputEmail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail">
-            </div>
-
-          <div class="col-12">
-            <label for="inputMessage" class="form-label">Message</label>
-            <textarea class="form-control" id="inputMessage" rows="3"></textarea>
-          </div>
+        <div class="col-12 text-center my-4">
+            <h2 class="display-5">Contact</h2>
+            <p class="mt-4">Got questions or ideas? I'd love to hear from you! Whether you're
+                interested in collaboration, have inquiries about my projects, or
+                wish to request a copy of my CV, please don't hesitate to get in
+                touch. I'm always open to discussing new opportunities and how we
+                can work together to create something amazing!</p>
+        </div>
+        <div class="col-12 col-md-10 col-lg-8 mb-4">
+            <!-- Add your form here -->
+            <form class="row g-3 sharp-corners">
+                <div class="col-lg-4">
+                    <label for="full-name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="full-name">
+                </div>
+                <div class="col-lg-4">
+                    <label for="phonenumber" class="form-label">Phone number</label>
+                    <input type="number" class="form-control" id="phonenumber">
+                </div>
+                <div class="col-lg-4">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
                 <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Send
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </div>
-        </form>
-      </div>
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary custom-button">Send</button>
+                </div>
+            </form>
+        </div>
     </div>
-  </footer>
+</footer>
 <!--Modal-->
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -239,7 +229,7 @@
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content">
+    <div class="modal-content sharp-corners">
       <div class="modal-header">
         <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
