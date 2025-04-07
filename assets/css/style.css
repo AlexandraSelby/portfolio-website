@@ -2,11 +2,12 @@
 
 
 body { 
-    font-family: poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color:#a4c2d1;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'DM Serif Display', serif;
     
     color: #184f63; 
@@ -17,10 +18,22 @@ h1, h2 {
     border-radius: 0;
 }
 
+/*buttons*/
+
+.custom-button{
+    background-color: #1f7798;
+    border: #1f7798;
+}
+
+.custom-button:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a;
+}
+
 /*About section*/
 
 #about{
-    background-color: white;
+    background-color:white;
 }
 
 /*Portofolio section*/
